@@ -67,7 +67,7 @@ key         server-key.pem
 ca          ca-cert.pem
 cert        server-cert.pem
 dh          dh.pem
-keepalive   10 120
+keepalive   50 150
 persist-key yes
 persist-tun yes
 comp-lzo    yes
@@ -101,7 +101,7 @@ key         server-key.pem
 ca          ca-cert.pem
 cert        server-cert.pem
 dh          dh.pem
-keepalive   10 120
+keepalive   50 150
 persist-key yes
 persist-tun yes
 comp-lzo    yes
