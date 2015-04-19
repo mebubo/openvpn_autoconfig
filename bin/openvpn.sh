@@ -164,8 +164,4 @@ all() {
     generate_configs
 }
 
-if [[ -z "$1" ]]; then
-    all
-else
-    "$@"
-fi
+"$@"
